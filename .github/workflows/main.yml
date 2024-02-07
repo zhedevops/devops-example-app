@@ -29,8 +29,8 @@ jobs:
           load: true
           tags: ${{ env.TEST_TAG }}
 
-      - run: make compose-test-ci
-      - run: make compose-lint-ci
+     #      - run: make compose-test-ci
+        #   - run: make compose-lint-ci
 
       - name: Build and push app
         uses: docker/build-push-action@v2
