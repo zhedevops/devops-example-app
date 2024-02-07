@@ -5,4 +5,7 @@ all:
     webservers:
       hosts:
         web1:
-          ansible_host: 212.193.63.216 
+          ansible_host: 212.193.63.216
+        web2:
+          ansible_host: 212.193.59.207
+          ansible_port: 1693    
